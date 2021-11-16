@@ -24,7 +24,6 @@ public class Shorty extends Creature implements AbleToJoinStory {
     }
 
 
-
     @Override
     public void joinStory() {
         System.out.println(joinMassage() + "\n");
@@ -35,7 +34,7 @@ public class Shorty extends Creature implements AbleToJoinStory {
         return "Коротышка " + name + " присоединился к истории";
     }
 
-    public void drinkLemonade(){
+    public void drinkLemonade() {
         if (this.isAbleToDrinkAllLemonade) {
             if (this.isInTheCar != null) {
                 System.out.println(this.getName() + " может пить сколько угодно газировки");
@@ -142,7 +141,6 @@ public class Shorty extends Creature implements AbleToJoinStory {
 
     public boolean getLoveToRideCar() {
         return loveToRideCar;
-
     }
 
     public void loveToRideCarMassage() {

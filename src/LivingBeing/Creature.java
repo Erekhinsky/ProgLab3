@@ -3,7 +3,7 @@ package LivingBeing;
 import Utility.*;
 
 
-public abstract class Creature implements Moveable, InteractionWithCar {
+public abstract class Creature implements Movable, InteractionWithCar {
     protected String name;
     protected Integer age;
     protected Location location;
@@ -35,9 +35,6 @@ public abstract class Creature implements Moveable, InteractionWithCar {
         this.speed = speed;
     }
 
-
     protected abstract void changingLocationMassage(Double speed);
-
-
 
 }

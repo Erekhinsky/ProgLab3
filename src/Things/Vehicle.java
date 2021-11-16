@@ -2,7 +2,7 @@ package Things;
 
 import Utility.*;
 
-public abstract class Vehicle implements Moveable {
+public abstract class Vehicle implements Movable {
     protected Double speed;
     protected Integer freeSeats;
     protected Location location;
@@ -22,7 +22,4 @@ public abstract class Vehicle implements Moveable {
         this.freeSeats = freeSeats;
         this.location = location;
     }
-
-
-
 }

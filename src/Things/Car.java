@@ -1,7 +1,6 @@
 package Things;
 
 import java.util.Random;
-
 import Utility.*;
 
 public class Car extends Vehicle implements AbleToJoinStory {
@@ -72,7 +71,6 @@ public class Car extends Vehicle implements AbleToJoinStory {
     public void setFreeSeats(Integer freeSeats) {
         this.freeSeats = freeSeats;
     }
-
 
     private void setEngineIsOn(boolean value) {
         if (value) {
